@@ -1,10 +1,10 @@
 import React, { PropTypes } from 'react';
-
+import Header  from './common/Header' ; 
 class App extends React.Component {
     render() {
         return (
             <div className="cointainer-fluid">
-                <p>Header here...</p>
+                <Header />
                 {this.props.children}
             </div>
         );
